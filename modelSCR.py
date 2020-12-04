@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+##  SCR Model Code Version 0.1
+##  Copyright (c) 2020, Lawrence Livermore National Security, LLC.
+##  Produced at the Lawrence Livermore National Laboratory.
+##  LLNL-CODE-817266. All rights reserved.
+##  Please see the file LICENSE for the license for this code.
+##
+
 from math import * 
 import sys,os
 from optparse import OptionParser

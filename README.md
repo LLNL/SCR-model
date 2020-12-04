@@ -1,10 +1,11 @@
-SCR model Code
+SCR Model Code Version 0.1
 
 This document:
   I. Files
   II. How to run the code
   III. Limitations
   IV. How to test the code
+  V. Release information
 
 I. Files
 ------------
@@ -63,3 +64,9 @@ III. Limitations
 IV. How to test the code
 --------------------------
 If you make changes, you can test the code by running regression tests. The script regressTest.py will run a series of tests, compare the results with what are believed to be good results, and then print out success or failure messages.
+
+
+V. Release
+-------------
+LLNL-CODE-817266
+See the LICENSE file for license information
