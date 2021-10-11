@@ -9,7 +9,7 @@ This document:
 
 I. Files
 ------------
-1. modelSCR_core.py contains the core modeling routines that implement the model described in the SCR SC 2010 paper (submitted).
+1. modelSCR_core.py contains the core modeling routines that implement the model described in the SCR SC 2010 paper (see References section below).
 
 2. modelSCR.py is a driver program that sets up multi-parameter experiments based on command line arguments. For each experiment specified, it calls the routines in modelSCR_core.py.
 
@@ -70,3 +70,9 @@ V. Release
 -------------
 LLNL-CODE-817266
 See the LICENSE file for license information
+
+VI. References
+----------------
+Adam Moody, Greg Bronevetsky, Kathryn Mohror, Bronis R. de Supinski, "Design, Modeling, and Evaluation of a Scalable Multi-level Checkpointing System," LLNL-CONF-427742, Supercomputing 2010, New Orleans, LA, November 2010. https://dl.acm.org/doi/10.1109/SC.2010.18
+
+Kathryn Mohror, Adam Moody, Greg Bronevetsky, Bronis R. de Supinski, "Detailed Modeling and Evaluation of a Scalable Multilevel Checkpointing System," in Transactions on Parallel and Distributed Systems, LLNL-JRNL-564721, Transactions on Parallel and Distributed Systems, 25(9):2255-2263, Sept. 2014. https://ieeexplore.ieee.org/document/6494566
